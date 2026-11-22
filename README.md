@@ -41,7 +41,7 @@ Insurance is the most repeated answer, but fees and packaging got the most upvot
 | 61 | sales tax and card fees for me, but the real surprise was how much time the bookkeeping ate. |
 | 33 | Build-out. And especially if you're renting it's like giving the landlord a free upgrade. |
 | 21 | Software costs have absolutely spiraled in the past 5-10 years. |
-| 15 | Bank fees. What the f*** do you mean it costs me US$30 to make one international transaction, whether it's for $10k or $100? |
+| 15 | Bank fees. What the f\*\*\* do you mean it costs me US$30 to make one international transaction, whether it's for $10k or $100? |
 
 The first ten rows in full: [sample-output.json](sample-output.json). One of them:
 
