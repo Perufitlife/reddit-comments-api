@@ -21,7 +21,7 @@ Input:
 }
 ```
 
-Run on 2026-11-22: 44 comments in 13 seconds, 35 of them top-level answers. Grouping them by what they mention:
+Run on 2026-11-22: 66 comments in 21 seconds: the 35 answers to the post and 31 replies, including the ones Reddit folds behind "more replies", each placed under the comment it answers. Grouping the answers and their first replies (44 rows) by what they mention:
 
 | Expense | Comments | Upvotes |
 |---|---|---|
@@ -128,7 +128,7 @@ Then ask, for example: "Read the comments of this Reddit thread and list the pai
 ## What it does not do
 
 - It reads posts you give it. To find posts first (a subreddit's top posts of the week, or a keyword search), use [Reddit Scraper](https://apify.com/renzomacar/reddit-scraper) and pass its post links here.
-- Deleted and removed comments, and comments hidden from logged-out visitors, are not returned, so the count can be below the number Reddit shows on the post.
+- Deleted and removed comments, and comments hidden from logged-out visitors, are not returned, so the count can be below the number Reddit shows on the post (Reddit counts those too). On a busier thread of the same week, Reddit showed 260 and the Actor returned 240.
 - No login, no private or quarantined subreddits.
 
 ## Price
